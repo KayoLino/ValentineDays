@@ -1,0 +1,94 @@
+.section_congratulations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%; 
+  max-width: 700px;
+  height: auto;
+  padding: 5vh 2rem;
+  gap: 2rem;
+  box-sizing: border-box; 
+}
+
+.section_congratulations>img:first-child{
+  width: 30px;
+  position: absolute;
+  top:2%;
+  left: 2%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.section_congratulations>img:first-child:hover{
+  transform: scale(1.2);
+}
+
+.section_congratulations > img {
+  width: 180px;
+  margin-bottom: 2rem;
+  max-width: 100%; 
+  height: auto; 
+}
+
+.section_congratulations p {
+  font-size: 1.3rem;
+  color: var(--text-color);
+  text-align: center;
+  margin: 0;
+  padding: 0 1rem; 
+}
+
+.section_congratulations > div {
+  display: flex;
+  gap: 2rem;
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+
+.section_congratulations > div > img {
+  width: 40px;
+  height: auto; 
+  max-width: 25vw;
+}
+
+.section_congratulations button {
+  font-family: 'StarCartoon';
+  font-size: 1.5rem;
+  color: var(--white-color);
+  border: solid 8px var(--border-color);
+  border-radius: 40px;
+  padding: 1rem 5rem;
+  background: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  max-width: 90%; 
+}
+
+.section_congratulations button:hover {
+  transform: scale(1.05); 
+  background: var(--hover-color); 
+}
+
+@media (max-width: 600px) {
+  .section_congratulations {
+    width: 100%; 
+    padding: 4vh 2rem; 
+  }
+
+  .section_congratulations>img:first-child{
+    width: 20px;
+  }
+
+  .section_congratulations > img {
+    width: 150px; 
+  }
+
+  .section_congratulations p {
+    font-size: 1.1rem; 
+  }
+
+  .section_congratulations button {
+    font-size: 1.3rem; 
+    padding: 1rem 3rem; 
+  }
+}

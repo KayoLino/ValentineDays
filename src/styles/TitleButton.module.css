@@ -1,0 +1,19 @@
+.title_white{
+  background: var(--primary-color);
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  color: var(--white-color);
+  border: solid 8px var(--border-color);
+  border-radius: 45px;
+  cursor: pointer;
+}
+
+.title_brown{
+  background: var(--primary-color);
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  color: var(--text-color);
+  border: solid 8px var(--border-color);
+  border-radius: 45px;
+  cursor: pointer;
+}

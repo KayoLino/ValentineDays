@@ -1,0 +1,129 @@
+.background_pink {
+  background-image: url('../assets/backgrounds/bg1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  transition: background-color 0.5s ease;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white-color);
+  width: 80%; 
+  max-width: 1200px; 
+  height: 80%; 
+  margin: 5vh auto;
+  border-radius: 20px;
+  border: solid 10px var(--border-color);
+  padding: 0 20px;
+  box-sizing: border-box; 
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.floating_strawberry {
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  width: 10%;
+  z-index: 5;
+}
+
+.floating_lay {
+  position: absolute;
+  bottom: -2%;
+  left: -2%;
+  width: 15%;
+  z-index: 5;
+}
+
+.floating_bigStar {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 25%;
+  z-index: 5;
+}
+
+.floating_strawberry1 {
+  position: absolute;
+  bottom: 10%;
+  right: 4%;
+  width: 10%;
+  z-index: 5;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%; 
+    height: auto; 
+  }
+
+  .floating_strawberry {
+    top: 10%; 
+    left: 8%; 
+    width: 12%;
+  }
+
+  .floating_lay {
+    bottom: 5%; 
+    left: 5%;
+    width: 12%;
+  }
+
+  .floating_bigStar {
+    top: 5%; 
+    right: 10%; 
+    width: 20%;
+  }
+
+  .floating_strawberry1 {
+    bottom: 5%; 
+    right: 8%; 
+    width: 12%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%; 
+    height: auto; 
+  }
+
+  .floating_strawberry {
+    top: 8%; 
+    left: 10%;
+    width: 15%;
+  }
+
+  .floating_lay {
+    bottom: 8%;
+    left: 10%; 
+    width: 15%; 
+  }
+
+  .floating_bigStar {
+    top: 8%; 
+    right: 12%;
+    width: 18%;
+  }
+
+  .floating_strawberry1 {
+    bottom: 8%; 
+    right: 10%;
+    width: 15%; 
+  }
+}

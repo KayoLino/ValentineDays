@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'StarCartoon';
+  src:url('../assets/fonts/StarCartoon.ttf') format('trueType');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --white-color: #fff;
+  --primary-color: #F66F6F;
+  --hover-color: #c54646;
+  --text-color: #5F3737;
+  --border-color:#6C2A38;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'StarCartoon', 'Comic Sans MS', sans-serif;
+}

@@ -1,0 +1,96 @@
+.section_ready {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10px; 
+  box-sizing: border-box; 
+}
+
+.section_ready h1 {
+  color: var(--white-color);
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  text-align: center; 
+}
+
+.section_ready img {
+  width: 15%;
+  margin: 5vh 0;
+}
+
+.section_ready p {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  text-align: center; 
+}
+
+.section_ready button {
+  font-family: 'StarCartoon';
+  font-size: 1.5rem;
+  color: var(--white-color);
+  border: solid 8px var(--border-color);
+  border-radius: 40px;
+  padding: 1rem 5rem;
+  background: var(--primary-color);
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.section_ready button:hover {
+  background: var(--hover-color);
+}
+
+@media (max-width: 768px) {
+  .section_ready {
+    padding: 0 15px; 
+  }
+
+  .section_ready h1 {
+    font-size: 3rem; 
+    margin-bottom: 1.5rem; 
+  }
+
+  .section_ready img {
+    width: 25%; 
+    margin: 3vh 0;
+  }
+
+  .section_ready p {
+    font-size: 1.4rem; 
+  }
+
+  .section_ready button {
+    font-size: 1.4rem; 
+    padding: 1rem 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section_ready {
+    padding: 0 10px; 
+  }
+
+  .section_ready h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .section_ready img {
+    width: 35%;
+    margin: 2vh 0;
+  }
+
+  .section_ready p {
+    font-size: 1.3rem; 
+  }
+
+  .section_ready button {
+    font-size: 1.3rem;
+    padding: 1rem 3rem; 
+    width: 100%;
+  }
+}

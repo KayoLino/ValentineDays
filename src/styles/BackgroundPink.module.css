@@ -1,0 +1,98 @@
+.background_pink {
+  background-image: url('../assets/backgrounds/bg2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  transition: background-color 0.5s ease;
+}
+
+.floating_strawberry,
+.floating_lay,
+.floating_fly,
+.floating_strawberry1 {
+  position: absolute;
+  z-index: 5;
+  width: 7%; 
+}
+
+.floating_strawberry {
+  top: 13%;
+  left: 8%;
+}
+
+.floating_lay {
+  bottom: 5%;
+  left: 2%;
+}
+
+.floating_fly {
+  top: 5%;
+  right: 8%;
+}
+
+.floating_strawberry1 {
+  bottom: 10%;
+  right: 8%;
+}
+
+@media (max-width: 768px) {
+  .floating_strawberry,
+  .floating_lay,
+  .floating_fly,
+  .floating_strawberry1 {
+    width: 12%; 
+  }
+
+  .floating_strawberry {
+    top: 10%;
+    left: 5%;
+  }
+
+  .floating_lay {
+    bottom: 3%;
+    left: 5%;
+  }
+
+  .floating_fly {
+    top: 3%;
+    right: 5%;
+  }
+
+  .floating_strawberry1 {
+    bottom: 8%;
+    right: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .floating_strawberry,
+  .floating_lay,
+  .floating_fly,
+  .floating_strawberry1 {
+    width: 15%;
+  }
+
+  .floating_strawberry {
+    top: 8%;
+    left: 10%;
+  }
+
+  .floating_lay {
+    bottom: 2%;
+    left: 8%;
+  }
+
+  .floating_fly {
+    top: 2%;
+    right: 6%;
+  }
+
+  .floating_strawberry1 {
+    bottom: 5%;
+    right: 6%;
+  }
+}

@@ -1,0 +1,92 @@
+.container_cute {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container_cute h2 {
+  font-family: 'StarCartoon';
+  font-size: 1.5rem;
+  color: var(--white-color);
+  border: solid 8px var(--border-color);
+  border-radius: 40px;
+  padding: 1.2rem 5rem;
+  background: var(--primary-color);
+  margin-bottom: 2vh;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.container_cute p {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  color: var(--text-color);
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container_cute button {
+  font-family: 'StarCartoon';
+  font-size: 1.5rem;
+  color: var(--white-color);
+  border: solid 8px var(--border-color);
+  border-radius: 40px;
+  padding: 1.2rem 5rem;
+  background: #6FAEF6;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.container_cute button:hover {
+  background: #519aec;
+}
+
+@media (max-width: 1279px) {
+  .container_cute p {
+    font-size: 1.2rem;
+  }
+
+  .container_cute button {
+    padding: 1rem 4rem; 
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container_cute p {
+    width: 100%; 
+    font-size: 1.1rem; 
+  }
+
+  .container_cute button {
+    padding: 1rem 3rem;
+    font-size: 1.3rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .container_cute {
+    width: 90%;
+  }
+
+  .container_cute h2 {
+    font-size: 1.2rem; 
+    padding: 1rem 3rem; 
+  }
+
+  .container_cute p {
+    font-size: 1rem;
+  }
+
+  .container_cute button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+}
