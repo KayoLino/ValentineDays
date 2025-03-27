@@ -19,7 +19,7 @@ Veja algumas capturas de tela que mostram o funcionamento do projeto.
 ![Puzzle](https://github.com/user-attachments/assets/1c7c1f86-abde-47cc-a7c6-1ff78f65485b)
 
 ### Playlist
-![PlayList](https://github.com/user-attachments/assets/0fbdec4e-adf3-49a4-9dbb-efe64880f949)
+![PlayList](https://github.com/user-attachments/assets/57db2620-31ae-4115-8f29-a538540a4991)
 
 ## Figma
 
