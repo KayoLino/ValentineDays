@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Valentine Days
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Valentine Days** é um site interativo feito com React, CSS e JSX, que combina elementos de quiz, puzzle e playlist de músicas. O projeto oferece uma experiência divertida e personalizada, com animações suaves, interações leves e uma interface responsiva. Além disso, o site traz um jogo de puzzle onde o usuário organiza imagens, um quiz para testar conhecimentos, e uma playlist de músicas para criar uma atmosfera única. O objetivo desse projeto foi criar uma experiência imersiva enquanto explora técnicas de frontend.
 
-## Available Scripts
+## Imagens do Projeto
 
-In the project directory, you can run:
+Veja algumas capturas de tela que mostram o funcionamento do projeto.
 
-### `npm start`
+###Home
+![Home](https://github.com/user-attachments/assets/7805067a-4402-4721-b8e0-db665bf95a24)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###Como jogar
+![Como jogar](https://github.com/user-attachments/assets/f99648b0-1817-45e6-a4dc-675f90eb496b)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###Quizz (Exemplo de 1)
+![Quizz](https://github.com/user-attachments/assets/2918efc4-c7ae-4030-8049-73413d61cd7a)
 
-### `npm test`
+###Puzzle
+![Puzzle](https://github.com/user-attachments/assets/1c7c1f86-abde-47cc-a7c6-1ff78f65485b)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###Playlist
+![PlayList](https://github.com/user-attachments/assets/0fbdec4e-adf3-49a4-9dbb-efe64880f949)
 
-### `npm run build`
+## Figma
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://www.figma.com/design/VnV29QKdHMN3yMALLwb579/ju?node-id=0-1&t=66OKrFLVY9703VXM-1
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##Tiktok
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://www.tiktok.com/@lllkoba/video/7482498785138969911?lang=pt-BR
 
-### `npm run eject`
+## Tecnologias Usadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React.js
+- CSS
+- JSX
+- React Router
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
